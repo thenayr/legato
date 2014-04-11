@@ -6,6 +6,8 @@
 
 ## [Check out the Wiki!](https://github.com/tpitale/legato/wiki) ##
 
+**Feel free to open an issue if you have a question that is not answered in the [Wiki](https://github.com/tpitale/legato/wiki)**
+
 If you've come here from Garb, welcome! There are a few changes from Garb, so you'll want to check out:
 
 * [Model Data](https://github.com/tpitale/legato/wiki/Model-Data)
@@ -261,7 +263,7 @@ Exit.realtime.results(profile)
 
   (The MIT License)
 
-  Copyright (c) 2012 Tony Pitale
+  Copyright (c) 2011-2014 Tony Pitale
 
   Permission is hereby granted, free of charge, to any person obtaining
   a copy of this software and associated documentation files (the
