@@ -10,7 +10,7 @@ module Legato
     # @return [ListParameter] the set of all metrics
     def metrics(*fields)
       fields, options = options_from_fields(fields)
-      @metrics ||= ListParameter.new(:metrics, [], options.fetch(:tracking_scope, "ga"))
+      @metrics ||= ListParameter.new(:metrics, [], options.fetch(:tracking_scope, "rt"))
       @metrics << fields
     end
 
@@ -20,7 +20,7 @@ module Legato
     # @return [ListParameter] the set of all dimensions
     def dimensions(*fields)
       fields, options = options_from_fields(fields)
-      @dimensions ||= ListParameter.new(:dimensions, [], options.fetch(:tracking_scope, "ga"))
+      @dimensions ||= ListParameter.new(:dimensions, [], options.fetch(:tracking_scope, "rt"))
       @dimensions << fields
     end
 
